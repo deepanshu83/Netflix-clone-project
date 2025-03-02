@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.btn12{
+    background-color: #000000;
+    cursor: pointer;
+    width: 300px;
+    margin: 20px;
+    height: 17px;
+    font-weight: bold;
+    padding: 8px;
+font-size: 18px;
+}
+ 
+.cardimg:hover{
+    width: 220px;
+}
+
+.btn123{
+    cursor: pointer;
+    background-color: #d31b1b;
+    height: 40px;
+    font-weight: bold;
+    padding: 8px;
+font-size: 18px;
+color: aliceblue;
+}
+
+.hero{
+    margin: 10px;
+    text-align: center;
+}
+
+.small{
+    font-size: 15px;
+}
+
+.big{
+font-size:40px; 
+}
+
+.headerbuttonsone{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #c51414;
+    margin: 20px;
+    margin-left: 750px;
+    height: 40px;
+    font-weight: bold;
+    padding: 8px;
+font-size: 18px;
+}
+
+.headerbuttons{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #d61212;
+    font-weight: bold;
+    margin: 20px;
+    height: 40px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.img{
+    margin-top: 15px;
+    margin-left:80px;
+    width: 150px;
+    }
+
+pre{
+font-weight: bold;
+ color: aliceblue;
+}
+
+.bgimg{
+    background-image: url('bgnew.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 0px;
+}
+
+.content{
+    padding: 30px;
+   background-color: rgb(8, 4, 32);
+    color: aliceblue;
+}
+
+.cardimg{
+    cursor: pointer;
+    width: 200px;
+}
+
+.trendings{
+    gap: 30px;
+    padding: 20px;
+    scroll-behavior: smooth;
+    display: flex;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: auto;
+    position: relative;
+    width: 90%;
+}
+
+.trendings{
+ ::-webkit-scrollbar{
+    display: none;
+ }
+}
+
+.scrollbtn{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.navbar{
+    width: max;
+    display: flex;
+}
+
+.header{
+    height: 100px;
+}
+
+.content > h3{
+    padding-left: 30px;
+    font-size: 35px;
+    margin: 10px;
+}
+
+footer{
+    height: 500px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.describe>p{
+    font-size: 25px;
+}
+.describe>pre{
+    font-size: 30px;
+}
+.describe>img{
+ width: 150px;
+}
+
+.anothercontent > p{
+    padding: 20px;
+    margin: 20px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap:20px;
+}
+.box{
+    height: 280px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(23, 16, 52);
+}
+
+.overlay{
+     color: rgb(81, 120, 136);
+    position: absolute;
+    margin-left: -25px;
+    bottom: 80px;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.box > h3{
+    text-align: center;
+    margin: 30px;
+    font-size: 35px;
+}
+
+.box > p{
+    color: grey;
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.imgfour{
+    margin-bottom: -70px;
+    width: 70px;
+margin-left: 490px;
+}
+
+.imgthree{
+    margin-bottom: -25px;
+    width: 70px;
+margin-left: 490px;
+}
+
+.imgtwo{
+    margin-bottom: -70px;
+    width: 70px;
+margin-left: 490px;
+}
+
+.imgone{
+    margin-bottom: -40px;
+    width: 70px;
+margin-left: 490px;
+}
+
+.footer-iteam{
+
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    display: grid;
+    margin: 20px;
+}
+
+.questions{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.emailsign{
+    padding: 10px;
+    text-align: center;
+}
+
+.longbox{
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    margin: 20px;
+    background-color: grey;
+    padding: 8px;
+    font-weight: bold
+}
+.askedquestion > h2{
+    margin: 20px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.plus{
+    font-size: 30px;
+}
+.longbox:hover{
+    padding: 12px;
+    font-size: 22px;
+}
